@@ -1,0 +1,33 @@
+Description: 
+Class desrcibes basic parameters of a veriety of employes.
+
+Attributes:
+1.	Id
+2.	First name
+3.	Last name
+4.	Department
+5.	Position
+6.	Salary
+7.	Attendance at work (e.g. at work, on vacation, on unpayed leave)
+8.	Absence period (Start date, End date)
+9.	Tasks list {}
+10.	Gender
+11. Age
+
+Public methods:
+1.	Fire the amploye
+2.	Give a task to an amploye
+3.	Cancel amploye's task
+4.	Check employe's attendance at work
+5.	Change employe's department
+6.	Change employe's position
+7.	Change employe's salary
+
+
+Private methods:
+1.	Go to work
+2.	Task processing
+3.	Take a vacation
+4.	Take a sick leave
+5.	Take an unpayed leave
+6.	Quit the job
