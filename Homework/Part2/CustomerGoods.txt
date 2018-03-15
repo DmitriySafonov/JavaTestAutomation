@@ -1,0 +1,28 @@
+Description: 
+Class desrcibes basic parameters of a veriety of costomer goods, such as: dairy products, vagetables, fruits, beveriges, canned products, meat products, detergents, hygiene products, stationary, personal care items and etc.
+
+Attributes:
+1.	Manufacturer
+2.	Origin
+3.	Edible
+4.	Product name
+5.	Production date
+6.	Expire date
+7.	Price
+8.	Package type
+9.	Measurement units
+10.	Quantity in measurement units
+
+Public methods:
+1.	Check expire date
+2.	Buy product
+3.	Consume product
+4.	Use product
+5.	Open product's package
+6.	Close product's package
+7.	Throw away
+8.	Recycle
+
+Private methods:
+1.	Spoil
+2.	Decompose in the Environment

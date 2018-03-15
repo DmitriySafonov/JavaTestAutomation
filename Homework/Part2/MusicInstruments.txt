@@ -1,0 +1,30 @@
+Attributes:
+1.	Manufacturer
+2.	Production year
+3.	Made in
+4.	Brand
+5.	Model
+6.	Classification (Stringed instruments, Percussion instruments, Wind instruments,  Electronic instruments)
+7.	Colour
+8.	Warranty period
+9.	Net Weight
+10.	Brutto
+11.	Price
+12. Currency
+13.	Is packed
+14. TuneLevelPercent
+
+Public methods:
+1.	Tuning sound of the musical instrument
+2.	Cleaning the musical instrument
+3.	Repair the musical instrument
+4.	Customization of the musical instrument
+5.	Play on the musical instrument
+6.	Pack the musical instrument
+7.	Unpack the musical instrument
+
+Private methods:
+1.	Sound generation
+2.	Deterioration
+3.	Lossing tune
+4.	Adjust tune

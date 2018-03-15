@@ -1,0 +1,40 @@
+Attributes:
+1.	Manufacturer
+2.	Origin
+3.	Device type
+4.	Brand
+5.	Model
+6.	Serial id
+7.	Screen size
+8.	Screen resolution
+9.	Sensor type
+10.	Dimensions
+11.	Weight
+12.	Colour
+13.	CPU, number of cores
+14.	CPU frequency
+15. CPU frequency units	(e.g. MHz, GHz)
+16.	RAM type
+17.	RAM volume
+18.	RAM units (e.g. kB, MB, GB)
+19.	Internal memory volume
+20. Internal memory units
+16.	Battery capacity
+17.	Warranty period
+18.	Price, USD
+19. Screen brightness
+20. Screen lock status
+
+Public methods:
+1.	Turn on/off the devices
+2.	Screen lock/unlock
+3.	Open an application
+4.	Close an application
+5.	Charge the device
+6.	Touch processing
+
+Private methods:
+1.	Screen brightness auto-control
+2.	Overheat protection
+3.	Battery charge control
+4.	Energy saving mode	
