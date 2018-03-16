@@ -1,5 +1,3 @@
-package myPackage01;
-
 public class ElectronicInstruments extends MusicInstruments {
 						private String PsuType; //e.g. battery, external PSU, built-in PSU
 						private float PsuInputVoltage;

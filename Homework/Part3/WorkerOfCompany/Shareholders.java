@@ -1,5 +1,3 @@
-package myPackage01;
-
 public class Shareholders extends WorkerOfCompany{
 						private float ShareInShareCapital;
 						private float InvestmentsAmountUSD;

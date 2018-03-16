@@ -1,5 +1,3 @@
-package myPackage01;
-
 import java.util.*;
 
 public class WindInstruments extends MusicInstruments {

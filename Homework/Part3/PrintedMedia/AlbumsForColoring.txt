@@ -1,0 +1,15 @@
+Class: 
+AlbumsForColoring
+
+Inherits class: 
+"PrintedMedia"
+
+
+New attributes: 
+1. Designer
+2. Book artist
+3. Type of coloring
+
+New methods:
+1. Public: coloring
+2. Public: get type of coloring

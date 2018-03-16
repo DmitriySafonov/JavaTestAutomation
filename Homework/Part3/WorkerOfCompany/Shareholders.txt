@@ -11,5 +11,5 @@ New attributes:
 3. Amount of stock devidents (USD)
 
 New methods:
-1. Public: buy shares
-2. Public: invest money
+1. Private: buy shares
+2. Private: invest money

@@ -1,5 +1,3 @@
-package test.Part3;
-
 import java.util.*;
 public class DairyProducts extends CustomerGoods {
 					private float FatnessPercent;

@@ -1,0 +1,15 @@
+Class: 
+AcademicLiterature
+
+Inherits class: 
+"PrintedMedia"
+
+
+New attributes: 
+1. List of authors
+2. List of references
+3. Cover type (e.g. bound in cloth, limp, stiff cover)
+
+New methods:
+1. Public: get authors list
+2. Public: get references list

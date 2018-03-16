@@ -1,5 +1,3 @@
-package myPackage01;
-
 public class CommercialManagers extends WorkerOfCompany{
 					private float SalesObjectiveAmounPerMonthtUSD;
 					private float CurrentsSalesAmountUSD;

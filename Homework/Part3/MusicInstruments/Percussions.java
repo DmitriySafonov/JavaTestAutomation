@@ -1,5 +1,3 @@
-package myPackage01;
-
 public class Percussions extends MusicInstruments {
 					public String MethodOfSoundProduction; //e.g. idiophone, membranophone, chordophone
 					private String BeaterType; //e.g. hands, sticks, mallets

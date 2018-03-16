@@ -1,5 +1,3 @@
-package myPackage01;
-
 public class Monitors extends TouchScreenDevices{
 					private float ColorSet;
 					private float CalibrationPercent; //value between 0 and 1

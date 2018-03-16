@@ -1,5 +1,3 @@
-package myPackage01;
-
 import java.util.*;
 import java.io.*;
 import javax.swing.JOptionPane;

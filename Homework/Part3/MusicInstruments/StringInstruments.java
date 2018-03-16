@@ -1,5 +1,3 @@
-package myPackage01;
-
 public class StringInstruments extends MusicInstruments {
 				private int NumberOfStrings;
 				private int NumberOfFrets;

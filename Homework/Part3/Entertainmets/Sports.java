@@ -1,5 +1,3 @@
-package myPackage01;
-
 public class Sports extends Entertainments {
 					public String EquipmentRequirements;
 					private int CommercialRating;

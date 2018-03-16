@@ -1,0 +1,16 @@
+Class: 
+Magazins
+
+Inherits class: 
+"PrintedMedia"
+
+
+New attributes: 
+1. Popularity
+2. Popularity scale (Map<K, V>: K- min number of subscribers to achieve popularity V
+3. Number of subscribers
+
+
+New methods:
+1. Public: add popularity level
+2. Private: change number of subscribers
