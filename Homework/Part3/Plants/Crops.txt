@@ -1,0 +1,15 @@
+Class: 
+Crops
+
+Inherits class: 
+"Plants"
+
+
+New attributes: 
+1. Crops purpose
+2. Harvest per hectare value
+3. Harvest per hectare unit
+
+New methods:
+1. Public: set harvest per hectare
+2. Public: calc harvest

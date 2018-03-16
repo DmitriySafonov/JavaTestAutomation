@@ -1,0 +1,15 @@
+Class: 
+Crops
+
+Inherits class: 
+"Plants"
+
+
+New attributes: 
+1. Wood quality in general
+2. Current wood quality
+3. Is fruiter
+
+New methods:
+1. Public: check wood quality
+2. Public: check is fruiter

@@ -1,0 +1,15 @@
+Class: 
+Flowers
+
+Inherits class: 
+"Plants"
+
+
+New attributes: 
+1. Aroma
+2. Blossom period days
+3. Flower bud color
+
+New methods:
+1. Public: reftilize
+2. Public: smelling  flower
