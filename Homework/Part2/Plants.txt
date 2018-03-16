@@ -1,0 +1,30 @@
+Class:
+Plants
+
+Attributes:
+1.	Latin name
+2.	Type (e.g. tree, bush, flower)
+3.	Year of discovery
+4.	Common name
+5.	Area of distribution
+6.	Height in meters
+7.	Lifetime period value (number)
+8.	Lifetime period unit (e.g. day, month, year)
+9.	Lifetime start
+10.	Liferime when enable to reproducing (in Lifetime period unit)
+11.	Able to reproducing
+12.	Alive status
+
+Public methods:
+1.	Set basic information
+2.	Get basic information
+3.	Measure height
+4.	Breed 
+5.	Put in a new plant
+6.	Eliminate the plant
+
+Private methods:
+1.	Grow
+2.	Reproducing
+3.	Decay
+4.	Processing life cycle

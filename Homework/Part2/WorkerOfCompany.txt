@@ -10,7 +10,7 @@ Attributes:
 6.	Salary
 7.	Attendance at work (e.g. at work, on vacation, on unpayed leave)
 8.	Absence period (Start date, End date)
-9.	Tasks list {}
+9.	Tasks list 
 10.	Gender
 11. Age
 

@@ -27,4 +27,3 @@ Private methods:
 1.	Sound generation
 2.	Deterioration
 3.	Lossing tune
-4.	Adjust tune

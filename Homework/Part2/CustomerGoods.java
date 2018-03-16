@@ -1,5 +1,4 @@
-package myPackage01;
-
+package test.Part3;
 import java.util.*;
 
 public class CustomerGoods {
@@ -16,8 +15,8 @@ public class CustomerGoods {
 	
 	//method checkExripeDate returns 'true' if expireDate does more than current date and "false" if it doesn't 
 	public boolean checkExripeDate() {
-		Date currentDate = new Date();
-		return currentDate.before(this.expireDate);
+		Date CurrentDate = new Date();
+		return CurrentDate.before(this.ExpireDate);
 	}
 	
 	public void buyProduct() {};
@@ -28,12 +27,12 @@ public class CustomerGoods {
 	public void throwAway() {};
 	public void recycleProduct() {};
 	
-	private void productSpoiling() {Edible=false};
+	private void productSpoiling() {Edible=false;};
 	private void decomposeInTheEnvironment() {};
 
 	//method setExpireDate changes expireDate
 	public void setExpireDate(Date newDate) {
-		this.expireDate = newDate;
+		this.ExpireDate = newDate;
 	}
 	
 }
