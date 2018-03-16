@@ -1,0 +1,15 @@
+Class: 
+Tablets
+
+Inherits class: 
+"TouchScreenDevices"
+
+
+New attributes: 
+1. Support of external keyboards (yes/no)
+2. External keyboard pluged/unpluged
+3. External keyboard connector type
+
+New methods:
+1. Public: plug-in an external keyboard
+2. Public: unplug an external keyboard

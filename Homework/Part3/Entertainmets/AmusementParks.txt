@@ -1,0 +1,15 @@
+Class: 
+AmusementParks
+
+Inherits class: 
+"Entertainments"
+
+
+New attributes: 
+1. Type of park
+2. List of prices for additional services
+3. Number of parking places
+
+New methods:
+1. Public: add a price for additional service
+2. Public: get list of prices for additional services

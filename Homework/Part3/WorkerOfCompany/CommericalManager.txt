@@ -1,0 +1,15 @@
+Class: 
+CommercialManagers
+
+Inherits class: 
+"WorkerOfCompany"
+
+
+New attributes: 
+1. Sales objective amount per month in USD
+2. Current amount of sales in USD
+3. Regions under manage
+
+New methods:
+1. Public: set sales objective amount per month
+2. Public: check sales objective complition percent

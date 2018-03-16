@@ -1,0 +1,15 @@
+Class: 
+Laptops
+
+Inherits class: 
+"TouchScreenDevices"
+
+
+New attributes: 
+1. CPU model
+2. RAM model (RAM description)
+3. Storage device model (HDD/SSD description)
+
+New methods:
+1. Public: change RAM
+2. Public: change storage device

@@ -21,9 +21,9 @@ Public methods:
 3.	Cancel the entertainment
 4.	Attend the entertainment
 5.	Leave the entertainment
-6.	Check event's status
-7.	Change event's period
-8.	Change event's location
+6.	Check status
+7.	Change period
+8.	Change location
 9.	Change number of participants
 10. Change notification parameters
 

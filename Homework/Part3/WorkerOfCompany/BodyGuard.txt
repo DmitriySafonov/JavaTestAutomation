@@ -1,0 +1,15 @@
+Class: 
+BodyGuards
+
+Inherits class: 
+"WorkerOfCompany"
+
+
+New attributes: 
+1. Equipped weapon
+2. Has bulletoroof vest
+3. Martial art skills
+
+New methods:
+1. Private: use weapon
+2. Private: use martial arts

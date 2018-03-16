@@ -1,0 +1,15 @@
+Class: 
+Exhibitions
+
+Inherits class: 
+"Entertainments"
+
+
+New attributes: 
+1. Theme of exhibition
+2. Is make photo allowed
+3. Price for guide services
+
+New methods:
+1. Public: order guide 
+2. Public: make photo

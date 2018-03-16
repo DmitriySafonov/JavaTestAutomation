@@ -1,0 +1,15 @@
+Class: 
+NightClubs
+
+Inherits class: 
+"Entertainments"
+
+
+New attributes: 
+1. Music style
+2. Has face control
+3. Is smoke free
+
+New methods:
+1. Public: smoking
+2. Public: check music style

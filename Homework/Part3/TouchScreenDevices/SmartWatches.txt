@@ -1,0 +1,15 @@
+Class: 
+SmartWatches
+
+Inherits class: 
+"TouchScreenDevices"
+
+
+New attributes: 
+1. Water proof depth (measure in meters)
+2. Shock resistance (measure in joules)
+3. Watch strap type
+
+New methods:
+1. Private: check depth
+2. Public: change watch strap
