@@ -1,0 +1,15 @@
+Class: 
+Sports
+
+Inherits class: 
+"Entertainments"
+
+
+New attributes: 
+1. Equipment requirements
+2. Commercial rating
+3. Attendens skill level
+
+New methods:
+1. Public: get equipment requirements
+2. Public: change commercial rating

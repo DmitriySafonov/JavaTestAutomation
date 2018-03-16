@@ -1,0 +1,15 @@
+Class: 
+Monitors
+
+Inherits class: 
+"TouchScreenDevices"
+
+
+New attributes: 
+1. Color set 
+2. Calibration percent
+3. Current display mode
+
+New methods:
+1. Public: calibrate
+2. Public: change display mode

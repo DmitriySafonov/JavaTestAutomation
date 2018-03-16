@@ -1,0 +1,15 @@
+Class: 
+Lawyers
+
+Inherits class: 
+"WorkerOfCompany"
+
+
+New attributes: 
+1. Practice
+2. industrial sector
+3. List of rewards
+
+New methods:
+1. Public: add reward
+2. Public: get list of rewards

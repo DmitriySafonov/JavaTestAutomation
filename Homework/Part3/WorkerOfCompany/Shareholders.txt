@@ -1,0 +1,15 @@
+Class: 
+Shareholders
+
+Inherits class: 
+"WorkerOfCompany"
+
+
+New attributes: 
+1. Share in sharecapital
+2. Amount of investments (USD)
+3. Amount of stock devidents (USD)
+
+New methods:
+1. Public: buy shares
+2. Public: invest money
