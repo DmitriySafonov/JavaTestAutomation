@@ -1,0 +1,16 @@
+Class: 
+Flowers
+
+Inherits class: 
+"Plants"
+
+
+New attributes: 
+1. Avarage pikes length
+2. Is poisonous
+3. Liquid percentage
+4. Weight
+
+New methods:
+1. Public: get water
+2. Public: touch cactus
