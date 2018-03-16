@@ -16,16 +16,16 @@ public class MusicInstruments {
 			private boolean IsPacked;
 			private float TuneLevelPercent; //value between 0 and 1 
 			
-		public void tuningSound() {};
+		public void tuningSound() {TuneLevelPercent=1;};
 		public void cleaning() {};
 		public void repair() {};
 		public void customization() {};
-		public void playOn() {};
+		public void playOn() {generationOfSound();};
 		public void pack() {};			
 		public void unpack() {};
 		
 		private void generationOfSound() {};
 		private void deterioration() {};
-		private void lossingTune() {};
-		private void adjustTune() {};
+		private void lossingTune(float NewTuneLevelPercent) {TuneLevelPercent=NewTuneLevelPercent;};
+		//private void adjustTune() {};
 }

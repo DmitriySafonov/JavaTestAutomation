@@ -1,0 +1,15 @@
+Class: 
+Household detergents
+
+Inherits class: 
+"CustomerGoods"
+
+
+New attributes: 
+1. Usage description
+2. State of matter (e.g. powder, liquid, gel)
+3. Is chemical free (Contain chemicals or not)
+
+New methods:
+1. Public: read usage description
+2. Private: remove dirt

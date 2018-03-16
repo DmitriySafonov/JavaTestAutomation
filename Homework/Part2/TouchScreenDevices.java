@@ -3,32 +3,32 @@ package myPackage01;
 import java.util.*;
 
 public class TouchScreenDevices {
-				private String manufacturer;
-				private String origin;
-				private String deviceType;
-				private String brandeName;
+				private String Manufacturer;
+				private String Origin;
+				private String DeviceType;
+				private String BrandeName;
 				private String Model;
-				private String serialId;
-				private float screenSize;
-				private int[] screenResolution = new int[2];
-				private String sensorType;
+				private String SerialId;
+				private float ScreenSize;
+				private int[] ScreenResolution = new int[2];
+				private String SensorType;
 				private float[] Dimentions = new float[3];
-				private float weight;
-				private String colour;
-				private int cpuName;
-				private int cpuNumberOfCores;
-				private float cpuFrequencyValue;
-				private String cpuFrequencyUnits;
-				private String ramType;
-				private int ramVolume;
-				private String ramUnits;
-				private int internalMemoryVolume;
-				private String internalMemoryUnits;
-				private int batteryCapacity;
-				private int warranyPeriod; //number of months
-				private float priceUSD;
-				private int screenBrightness;
-				private byte screenLockStatus;
+				private float Weight;
+				private String Colour;
+				private int CpuName;
+				private int CpuNumberOfCores;
+				private float CpuFrequencyValue;
+				private String CpuFrequencyUnits;
+				private String RamType;
+				private int RamVolume;
+				private String RamUnits;
+				private int InternalMemoryVolume;
+				private String InternalMemoryUnits;
+				private int BatteryCapacity;
+				private int WarranyPeriod; //number of months
+				private float PriceUSD;
+				private int ScreenBrightness;
+				private byte ScreenLockStatus;
 				
 
 		public void switchDeviceState() {};

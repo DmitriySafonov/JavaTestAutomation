@@ -1,0 +1,15 @@
+Class: 
+Beverages
+
+Inherits class: 
+"CustomerGoods"
+
+
+New attributes: 
+1. Is carbonated
+2. Is alcoholic
+3. Alcohol percent
+
+New methods:
+1. Public: leave open
+2. Public: mix beverages

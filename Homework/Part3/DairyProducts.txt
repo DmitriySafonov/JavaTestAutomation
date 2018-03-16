@@ -1,0 +1,15 @@
+Class: 
+Dairy products
+
+Inherits class: 
+"CustomerGoods"
+
+
+New attributes: 
+1. Fatness percent
+2. Food flavors
+3. Is fermented
+
+New methods:
+1. Public: boil
+2. Public: fermentation

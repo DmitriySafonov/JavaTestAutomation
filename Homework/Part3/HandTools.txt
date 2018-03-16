@@ -1,0 +1,15 @@
+Class: 
+Dairy products
+
+Inherits class: 
+"CustomerGoods"
+
+
+New attributes: 
+1. Purpose
+2. Material of construction
+3. Usage restrictions
+
+New methods:
+1. Public: read restrictions
+2. Public: change purpose

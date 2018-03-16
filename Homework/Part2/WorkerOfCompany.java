@@ -3,50 +3,39 @@ package myPackage01;
 import java.util.*;
 
 public class WorkerOfCompany {
-			private String id;
-			private String firstName;
-			private String lastName;
-			private String gender;
-			private Date birthDay;
-			private int age;
-			private String department;
-			private String position;
-			private float salary;
-			private String attendanceAtWork;
-			private Date[] absencePeriod = new Date[2];
-			private String[] tasksList = new String[1];
-			private String taskInProcessing;
+			private String Id;
+			private String FirstName;
+			private String LastName;
+			private String Gender;
+			private Date BirthDay;
+			private int Age;
+			private String Department;
+			private String Position;
+			private float Salary;
+			private String AttendanceAtWork;
+			private Date[] AbsencePeriod = new Date[2];
+			private Map<String, String> TasksList = new HashMap<String, String>();
+			private String TaskInProcessing;
 			
 		
 		public void fireTheEmploye() {}
-		public void giveTask(String taskName) {
-			if (this.tasksList[0] == null) {
-				this.tasksList[0] = taskName;
-			} else {
-				int last = this.tasksList.length;
-				String[] newTasksList = new String[last+1];
-				for (int i=0; i<this.tasksList.length;i++) {
-					newTasksList[i] = this.tasksList[i];
-				}
-				newTasksList[last] = taskName;
-				this.tasksList = new String[last+1];
-				this.tasksList = newTasksList;
-			}
+		public void giveTask(String NewTaskId, String NewDescription) {
+			TasksList.put(NewTaskId, NewDescription);
 		}
 		public void cancelTask(String taskName) {}
-		public String checkEmployesAttendenceAtWork() {return this.attendanceAtWork;}
-		public void changeEmployesDepartment(String newDepartment) {this.department = newDepartment;}
-		public void changeEmployesPosition(String newPosition) {this.position = newPosition;}
-		public void changeEmployesSalary(float newSalary) {this.salary = newSalary;}
-		public void showTaskList() {
-			System.out.println(Arrays.toString(this.tasksList));
+		public String checkEmployesAttendenceAtWork() {return this.AttendanceAtWork;}
+		public void changeEmployesDepartment(String newDepartment) {this.Department = newDepartment;}
+		public void changeEmployesPosition(String newPosition) {this.Position = newPosition;}
+		public void changeEmployesSalary(float newSalary) {this.Salary = newSalary;}
+		public Map<String, String> showTaskList() {
+			return TasksList;
 		}
 		
 		private void goToWork() {}
 		private void taskProcessing() {}
-		private void takeVacation(Date vacationStart, Date vacationEnd) {this.absencePeriod[0] = vacationStart; this.absencePeriod[1] = vacationEnd; this.attendanceAtWork = "on vacation";}
-		private void takeSickLeave(Date sickLeaveStart, Date sickLeaveEnd) {this.absencePeriod[0] = sickLeaveStart; this.absencePeriod[1] = sickLeaveEnd; this.attendanceAtWork = "on sick leave";}
-		private void takeUnpayedLeave(Date unpayedLeaveStart, Date unpayedLeaveEnd) {this.absencePeriod[0] = unpayedLeaveStart; this.absencePeriod[1] = unpayedLeaveEnd; this.attendanceAtWork = "on unpayed leave";};
+		private void takeVacation(Date vacationStart, Date vacationEnd) {this.AbsencePeriod[0] = vacationStart; this.AbsencePeriod[1] = vacationEnd; this.AttendanceAtWork = "on vacation";}
+		private void takeSickLeave(Date sickLeaveStart, Date sickLeaveEnd) {this.AbsencePeriod[0] = sickLeaveStart; this.AbsencePeriod[1] = sickLeaveEnd; this.AttendanceAtWork = "on sick leave";}
+		private void takeUnpayedLeave(Date unpayedLeaveStart, Date unpayedLeaveEnd) {this.AbsencePeriod[0] = unpayedLeaveStart; this.AbsencePeriod[1] = unpayedLeaveEnd; this.AttendanceAtWork = "on unpayed leave";};
 		private void quitTheJob() {}
 		private void chageAgeOnBirthDay() {}
 		
