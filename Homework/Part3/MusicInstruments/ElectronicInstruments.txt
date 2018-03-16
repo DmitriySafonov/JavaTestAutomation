@@ -1,0 +1,15 @@
+Class: 
+Electronic instruments
+
+Inherits class: 
+"MusicInstruments"
+
+
+New attributes: 
+1. Power supply unit (PSU) type (e.g. battery, external PSU, built-in PSU)
+2. PSU input voltage
+3. PSU output voltage
+
+New methods:
+1. Private: PSU missing operation
+2. Public: change PSU

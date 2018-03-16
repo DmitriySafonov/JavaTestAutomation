@@ -1,0 +1,34 @@
+Class:
+Printed media
+
+Attributes:
+1.	Publisher
+2.	Name
+3.	Publishing date
+4.	Paper type
+5.	Paper size
+6.	Colour printing
+7.	Number of copies
+8.	Number of pages
+9.	Type of printed media (e.g. newspaper, magazine, brochure)
+10.	Age bracket (e.g. children, teens, adults)
+11.	Publication frequency (e.g. daily, weekly, non-periodic)
+12.	Subject category (e.g. sports, business, fashion)
+13.	Editor
+14. Current page 
+15. Content (Associative array: <page, content>)
+
+Public methods:
+1.	Go to page
+2.	Read printed media
+3.	Recycle printed media
+4.	Throw away printed media
+5.	Pull out a page
+6.	Get basic details
+7.	Make copy
+8.	Put bookmark
+
+
+Private methods:
+1.	Show content
+2.	Change emotions of reader

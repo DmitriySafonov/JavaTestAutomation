@@ -1,3 +1,6 @@
+Class:
+Touch screen devices
+
 Attributes:
 1.	Manufacturer
 2.	Origin
@@ -11,30 +14,23 @@ Attributes:
 10.	Dimensions
 11.	Weight
 12.	Colour
-13.	CPU, number of cores
-14.	CPU frequency
-15. CPU frequency units	(e.g. MHz, GHz)
-16.	RAM type
-17.	RAM volume
-18.	RAM units (e.g. kB, MB, GB)
-19.	Internal memory volume
-20. Internal memory units
-16.	Battery capacity
-17.	Warranty period
-18.	Price, USD
-19. Screen brightness
-20. Screen lock status
+13.	Warranty period
+14.	Price, USD
+15. Screen brightness
+15.	DeviceState
+17. Screen lock status
+18.	Energy saving mode state
 
 Public methods:
-1.	Turn on/off the devices
+1.	Switch device's state
 2.	Screen lock/unlock
-3.	Open an application
-4.	Close an application
-5.	Charge the device
-6.	Touch processing
+3.	Energy saving mode On/Off
+4.	Change Resolution
+5.	Interact with touch screen
+6.	Check out warranty details
 
 Private methods:
-1.	Screen brightness auto-control
+1.	Battery charge control
 2.	Overheat protection
-3.	Battery charge control
+3.	Processing interaction with youch screen
 4.	Energy saving mode	

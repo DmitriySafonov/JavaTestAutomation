@@ -1,0 +1,15 @@
+Class: 
+Percussions
+
+Inherits class: 
+"MusicInstruments"
+
+
+New attributes: 
+1. Method of sound production
+2. Beater type
+3. Working area material
+
+New methods:
+1. Public: change beater type
+2. Public: change working area material

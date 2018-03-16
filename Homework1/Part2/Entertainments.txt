@@ -1,0 +1,34 @@
+Attributes:
+1.	Name
+2.	Type of activity (e.g. sports, party, gambling)
+3.	Style of the entertainment (e.g. country, classic, futuristic)
+4.	Location (e.g. restaurant, sport club, amusement park, office)
+5.	Minimal number of participants
+6.	Minimal appropriate age
+7.	Estimated duration
+8.	Price per person (USD)
+9.	Claimed number of participants
+10.	Actual number of participants
+11.	Entertainment status
+12.	Entertainment beginning
+13.	Entertainment ending
+14.	Notification period value 
+15.	Notification period unit (e.g. minutes, hours, days)
+
+Public methods:
+1.	Get details
+2.	Order the entertainment
+3.	Cancel the entertainment
+4.	Attend the entertainment
+5.	Leave the entertainment
+6.	Check event's status
+7.	Change event's period
+8.	Change event's location
+9.	Change number of participants
+10. Change notification parameters
+
+Private methods:
+1.	Change status on demand (when users call public methods)
+2.	Change status on time (it compares current time with beginning and ending, then it changes status)
+3.	Change actual number of participants
+4.	Send notification

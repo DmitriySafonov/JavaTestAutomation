@@ -1,0 +1,15 @@
+Class: 
+StringInstruments
+
+Inherits class: 
+"MusicInstruments"
+
+
+New attributes: 
+1. Number of strings
+2. Number of frets
+3. Strings material
+
+New methods:
+1. Private: rend of strings
+2. Public: put on strings

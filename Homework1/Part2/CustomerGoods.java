@@ -1,22 +1,23 @@
-package test.Part3;
+package myPackage01;
+
 import java.util.*;
 
 public class CustomerGoods {
-		private String Manufacturer;
-		private String Origin;
-		private Boolean Edible;
-		private String ProductName;
-		private Date ProductionDate;
-		private Date ExpireDate;
+		private String manufacturer;
+		private String origin;
+		private Boolean edible;
+		private String productName;
+		private Date productionDate;
+		private Date expireDate;
 		private float Price;
-		private String PackageType;
-		private String MeasurementUnits;
-		private float QuantityInMeasurementUnits;
+		private String packageType;
+		private String measurementUnits;
+		private float quantityInMeasurementUnits;
 	
 	//method checkExripeDate returns 'true' if expireDate does more than current date and "false" if it doesn't 
 	public boolean checkExripeDate() {
-		Date CurrentDate = new Date();
-		return CurrentDate.before(this.ExpireDate);
+		Date currentDate = new Date();
+		return currentDate.before(this.expireDate);
 	}
 	
 	public void buyProduct() {};
@@ -27,12 +28,12 @@ public class CustomerGoods {
 	public void throwAway() {};
 	public void recycleProduct() {};
 	
-	private void productSpoiling() {Edible=false;};
+	private void productSpoiling() {};
 	private void decomposeInTheEnvironment() {};
 
 	//method setExpireDate changes expireDate
 	public void setExpireDate(Date newDate) {
-		this.ExpireDate = newDate;
+		this.expireDate = newDate;
 	}
 	
 }

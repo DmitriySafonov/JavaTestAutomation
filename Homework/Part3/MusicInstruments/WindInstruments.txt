@@ -1,0 +1,15 @@
+Class: 
+WindInstruments
+
+Inherits class: 
+"MusicInstruments"
+
+
+New attributes: 
+1. Major tone (e.g. bass, middle, treble)
+2. Family (e.g. Brass, Woodwind)
+3. TypeOfSoundGeneration (e.g. flexible reed, air reed, lip reed)
+
+New methods:
+1. Private: gathering water inside (it happens during playing)
+2. Public: remove water
