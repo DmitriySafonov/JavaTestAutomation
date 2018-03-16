@@ -1,4 +1,3 @@
-package myPackage01;
 
 import java.util.*;
 

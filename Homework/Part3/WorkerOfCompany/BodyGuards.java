@@ -1,5 +1,3 @@
-package myPackage01;
-
 public class BodyGuards extends WorkerOfCompany{
 						private String WeaponEquipped;
 						private boolean HasBulletoroofVest;

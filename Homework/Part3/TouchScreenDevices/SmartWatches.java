@@ -1,5 +1,3 @@
-package myPackage01;
-
 public class SmartWatches extends TouchScreenDevices{
 					private float WaterProofDepthMeters;
 					private float ShockResistanceJoules;

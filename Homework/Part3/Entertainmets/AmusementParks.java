@@ -1,5 +1,3 @@
-package myPackage01;
-
 import java.util.*;
 import java.util.Map.Entry;
 

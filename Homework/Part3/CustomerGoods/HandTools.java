@@ -1,5 +1,3 @@
-package test.Part3;
-
 public class HandTools extends CustomerGoods {
 			public String Purpose;
 			public String MaterialOfConstruction;

@@ -1,5 +1,3 @@
-package myPackage01;
-
 public class Exhibitions extends Entertainments{
 					private String Theme; //e.g. arts, pets, industrial 
 					private boolean IsMakePhotoAllowed;

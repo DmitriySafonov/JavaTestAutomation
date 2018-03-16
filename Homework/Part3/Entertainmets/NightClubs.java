@@ -1,5 +1,3 @@
-package myPackage01;
-
 public class NightClubs extends Entertainments {
 					private String MusicStyle;
 					private boolean HasFaceControl;

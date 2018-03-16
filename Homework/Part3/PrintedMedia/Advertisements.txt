@@ -1,0 +1,15 @@
+Class: 
+Advertisements
+
+Inherits class: 
+"PrintedMedia"
+
+
+New attributes: 
+1. Name of the advertising agecy
+2. Marginals
+3. Disclaimer
+
+New methods:
+1. Public: get marginals
+2. Public: get disclaimer

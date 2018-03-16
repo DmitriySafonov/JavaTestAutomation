@@ -1,4 +1,3 @@
-package test.Part3;
 import java.util.*;
 
 public class Beverages extends CustomerGoods {

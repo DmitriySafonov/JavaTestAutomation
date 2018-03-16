@@ -1,5 +1,3 @@
-package test.Part3;
-
 public class HouseholdDetergents extends CustomerGoods {
 				public String UsageDescription;
 				public String StateOfMatter;
