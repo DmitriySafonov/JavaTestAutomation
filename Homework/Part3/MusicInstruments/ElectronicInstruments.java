@@ -11,6 +11,30 @@ public class ElectronicInstruments extends MusicInstruments {
 					PsuOutputVoltage=NewPsuOutputVoltage;
 				};
 						
+				public String getPsuType() {
+					return PsuType;
+				}
+
+				public void setPsuType(String psuType) {
+					PsuType = psuType;
+				}
+
+				public float getPsuInputVoltage() {
+					return PsuInputVoltage;
+				}
+
+				public void setPsuInputVoltage(float psuInputVoltage) {
+					PsuInputVoltage = psuInputVoltage;
+				}
+
+				public float getPsuOutputVoltage() {
+					return PsuOutputVoltage;
+				}
+
+				public void setPsuOutputVoltage(float psuOutputVoltage) {
+					PsuOutputVoltage = psuOutputVoltage;
+				};
 					
+	
 				
 }

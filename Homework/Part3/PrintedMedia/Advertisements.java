@@ -5,4 +5,17 @@ public class Advertisements extends PrintedMedia {
 					
 		public String getMarginals() {return Marginals;};
 		public String getDisclaimer() {return Disclaimer;};
+		public String getAdvertisingAgencyName() {
+			return AdvertisingAgencyName;
+		}
+		public void setAdvertisingAgencyName(String advertisingAgencyName) {
+			AdvertisingAgencyName = advertisingAgencyName;
+		}
+		public void setMarginals(String marginals) {
+			Marginals = marginals;
+		}
+		public void setDisclaimer(String disclaimer) {
+			Disclaimer = disclaimer;
+		};
+
 }

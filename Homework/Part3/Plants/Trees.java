@@ -8,4 +8,20 @@ public class Trees extends Plants{
 			return result;
 		}
 		public boolean checkIsFruiter() {return IsFruiter;};
+		public float getWoodQualityGeneral() {
+			return WoodQualityGeneral;
+		}
+		public void setWoodQualityGeneral(float woodQualityGeneral) {
+			WoodQualityGeneral = woodQualityGeneral;
+		}
+		public float getWoodQuality—urrent() {
+			return WoodQuality—urrent;
+		}
+		public void setWoodQuality—urrent(float woodQuality—urrent) {
+			WoodQuality—urrent = woodQuality—urrent;
+		}
+		public void setIsFruiter(boolean isFruiter) {
+			IsFruiter = isFruiter;
+		};
+
 }

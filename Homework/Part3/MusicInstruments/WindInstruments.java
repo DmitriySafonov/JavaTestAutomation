@@ -7,6 +7,23 @@ public class WindInstruments extends MusicInstruments {
 				
 		private void gatheringWaterInside() {};
 		public void removeWater() {};
-		
+		public String getMajorTone() {
+			return MajorTone;
+		}
+		public void setMajorTone(String majorTone) {
+			MajorTone = majorTone;
+		}
+		public String getFamily() {
+			return Family;
+		}
+		public void setFamily(String family) {
+			Family = family;
+		}
+		public String getTypeOfSoundGeneration() {
+			return TypeOfSoundGeneration;
+		}
+		public void setTypeOfSoundGeneration(String typeOfSoundGeneration) {
+			TypeOfSoundGeneration = typeOfSoundGeneration;
+		};
 				
 }

@@ -12,4 +12,23 @@ public class Beverages extends CustomerGoods {
 			result.AlcoholPercent =  (FirstBeverage.AlcoholPercent + SecondBeverage.AlcoholPercent) / 2;
 			return result;
 		};
+		public boolean getIsCarbonated() {
+			return IsCarbonated;
+		}
+		public void setIsCarbonated(boolean isCarbonated) {
+			IsCarbonated = isCarbonated;
+		}
+		public boolean getIsAlcoholic() {
+			return IsAlcoholic;
+		}
+		public void setIsAlcoholic(boolean isAlcoholic) {
+			IsAlcoholic = isAlcoholic;
+		}
+		public float getAlcoholPercent() {
+			return AlcoholPercent;
+		}
+		public void setAlcoholPercent(float alcoholPercent) {
+			AlcoholPercent = alcoholPercent;
+		};
+
 }
