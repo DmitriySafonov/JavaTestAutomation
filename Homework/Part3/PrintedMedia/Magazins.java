@@ -17,5 +17,14 @@ public class Magazins extends PrintedMedia {
 				}
 				Popularity = result;
 			};
+			public String getPopularity() {
+				return Popularity;
+			}
+			public Map<Integer, String> getPupolarityScale() {
+				return PupolarityScale;
+			}
+			public int getNumberOfSubscribers() {
+				return NumberOfSubscribers;
+			};
 
 }

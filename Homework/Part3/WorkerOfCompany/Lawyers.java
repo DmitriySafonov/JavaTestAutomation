@@ -7,5 +7,18 @@ public class Lawyers extends WorkerOfCompany{
 					
 			public void addReward(String RewardName) {Rewards.add(new String(RewardName));};
 			public String getRewardsList() {return Rewards.toString();};
+			public String getPractice() {
+				return Practice;
+			}
+			public void setPractice(String practice) {
+				Practice = practice;
+			}
+			public String getIndustrialSector() {
+				return IndustrialSector;
+			}
+			public void setIndustrialSector(String industrialSector) {
+				IndustrialSector = industrialSector;
+			};
+
 			
 }

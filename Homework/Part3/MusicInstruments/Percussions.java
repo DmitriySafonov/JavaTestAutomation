@@ -5,5 +5,10 @@ public class Percussions extends MusicInstruments {
 			
 		public void changeBeaterType(String NewBeaterType) {BeaterType=NewBeaterType;};
 		public void changeWorkingAreaMaterial(String NewWorkingAreaMaterial) {WorkingAreaMaterial=NewWorkingAreaMaterial;};
-		
+		public String getBeaterType() {
+			return BeaterType;
+		}
+		public String getWorkingAreaMaterial() {
+			return WorkingAreaMaterial;
+		};
 }

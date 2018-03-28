@@ -9,4 +9,28 @@ public class StringInstruments extends MusicInstruments {
 		}
 		
 		private void rendOfStrings(int NewNumberOfStrings) {NumberOfStrings=NewNumberOfStrings;};
+		public int getNumberOfStrings() {
+			return NumberOfStrings;
+		}
+
+		public void setNumberOfStrings(int numberOfStrings) {
+			NumberOfStrings = numberOfStrings;
+		}
+
+		public int getNumberOfFrets() {
+			return NumberOfFrets;
+		}
+
+		public void setNumberOfFrets(int numberOfFrets) {
+			NumberOfFrets = numberOfFrets;
+		}
+
+		public String getStringsMaterial() {
+			return StringsMaterial;
+		}
+
+		public void setStringsMaterial(String stringsMaterial) {
+			StringsMaterial = stringsMaterial;
+		};
+
 }

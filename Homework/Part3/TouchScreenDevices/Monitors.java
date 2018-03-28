@@ -5,5 +5,18 @@ public class Monitors extends TouchScreenDevices{
 					
 			public void calibrate(float NewCalibrationPercent) {CalibrationPercent=CalibrationPercent;};
 			public void changeDisplayMode(String NewCurrentDisplayMode) {CurrentDisplayMode=NewCurrentDisplayMode;};
+			public float getColorSet() {
+				return ColorSet;
+			}
+			public void setColorSet(float colorSet) {
+				ColorSet = colorSet;
+			}
+			public float getCalibrationPercent() {
+				return CalibrationPercent;
+			}
+			public String getCurrentDisplayMode() {
+				return CurrentDisplayMode;
+			};
+
 								
 }

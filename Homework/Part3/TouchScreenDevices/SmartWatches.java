@@ -8,4 +8,24 @@ public class SmartWatches extends TouchScreenDevices{
 			};
 			
 			public void changeWatchStrap(String NewWatchStrapType) {WatchStrapType=NewWatchStrapType;};
+			public float getWaterProofDepthMeters() {
+				return WaterProofDepthMeters;
+			}
+
+			public void setWaterProofDepthMeters(float waterProofDepthMeters) {
+				WaterProofDepthMeters = waterProofDepthMeters;
+			}
+
+			public float getShockResistanceJoules() {
+				return ShockResistanceJoules;
+			}
+
+			public void setShockResistanceJoules(float shockResistanceJoules) {
+				ShockResistanceJoules = shockResistanceJoules;
+			}
+
+			public String getWatchStrapType() {
+				return WatchStrapType;
+			};
+
 }

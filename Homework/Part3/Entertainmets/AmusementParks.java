@@ -6,7 +6,7 @@ public class AmusementParks extends Entertainments{
 						private Map<String, Float> AdditionalServicesPrice = new HashMap<String, Float>();
 						private int NumberOfParkingPlaces;
 						
-				public void addAdditionalServivePrice(String NewServiceName, float NewServicePrice) {
+				public void setAdditionalServivePrice(String NewServiceName, float NewServicePrice) {
 					AdditionalServicesPrice.put(NewServiceName, NewServicePrice);
 				}
 				public String getListAdditionalServicesPrice() {
@@ -20,6 +20,19 @@ public class AmusementParks extends Entertainments{
 					}	
 					return result;
 				};
-				
+				public String getParkType() {
+					return ParkType;
+				}
+				public void setParkType(String parkType) {
+					ParkType = parkType;
+				}
+				public int getNumberOfParkingPlaces() {
+					return NumberOfParkingPlaces;
+				}
+				public void setNumberOfParkingPlaces(int numberOfParkingPlaces) {
+					NumberOfParkingPlaces = numberOfParkingPlaces;
+				};
+
+
 				
 }

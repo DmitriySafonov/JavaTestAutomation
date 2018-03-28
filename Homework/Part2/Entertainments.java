@@ -41,6 +41,75 @@ public class Entertainments {
 		private void changeNumberOfParticipantsActual(int Value) {NumberOfPartisipants_Actual+=Value;};
 		private void sendNotification() {};
 		
-		
+		public String getName() {
+			return Name;
+		}
+		public void setName(String name) {
+			Name = name;
+		}
+		public String getTypeOfActivity() {
+			return TypeOfActivity;
+		}
+		public void setTypeOfActivity(String typeOfActivity) {
+			TypeOfActivity = typeOfActivity;
+		}
+		public String getStyle() {
+			return Style;
+		}
+		public void setStyle(String style) {
+			Style = style;
+		}
+		public byte getMinNumberOfPeople() {
+			return MinNumberOfPeople;
+		}
+		public void setMinNumberOfPeople(byte minNumberOfPeople) {
+			MinNumberOfPeople = minNumberOfPeople;
+		}
+		public byte getMinAppropriateAge() {
+			return MinAppropriateAge;
+		}
+		public void setMinAppropriateAge(byte minAppropriateAge) {
+			MinAppropriateAge = minAppropriateAge;
+		}
+		public float getEstimatedDurationHours() {
+			return EstimatedDurationHours;
+		}
+		public void setEstimatedDurationHours(float estimatedDurationHours) {
+			EstimatedDurationHours = estimatedDurationHours;
+		}
+		public float getPricePerPersonUSD() {
+			return PricePerPersonUSD;
+		}
+		public void setPricePerPersonUSD(float pricePerPersonUSD) {
+			PricePerPersonUSD = pricePerPersonUSD;
+		}
+		public String getStatus() {
+			return Status;
+		}
+		public void setStatus(String status) {
+			Status = status;
+		}
+		public String getLocation() {
+			return Location;
+		}
+		public int getNumberOfPartisipants_Claimed() {
+			return NumberOfPartisipants_Claimed;
+		}
+		public int getNumberOfPartisipants_Actual() {
+			return NumberOfPartisipants_Actual;
+		}
+		public Date getBeginning() {
+			return Beginning;
+		}
+		public Date getEnding() {
+			return Ending;
+		}
+		public int getNotificationPeriodValue() {
+			return NotificationPeriodValue;
+		}
+		public String getNotificationPeriodUnit() {
+			return NotificationPeriodUnit;
+		};
+
 			
 }
